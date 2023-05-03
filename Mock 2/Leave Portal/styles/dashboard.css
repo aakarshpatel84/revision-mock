@@ -1,0 +1,139 @@
+table {
+  width: auto;
+  margin: auto;
+  /* border-collapse: collapse; */
+  margin-top: 20px;
+}
+
+thead {
+  background-color: Tomato;
+  color: #fff;
+}
+td {
+  text-align: center;
+  padding: 10px;
+}
+select {
+  margin-top: 10px;
+  width: 10%;
+}
+section > div {
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  display: none;
+  transform: translate(50%, 50%);
+  margin: auto;
+}
+section > div > h1 {
+  text-align: center;
+}
+section > div > div > button {
+  display: block;
+  margin-left: auto;
+  padding: 5px;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.wrapper_div_left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.wrapper_div_right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+h3 {
+  margin-top: -20px;
+}
+#search {
+  margin-top: 20px;
+  width: 190px;
+}
+select {
+  padding: 10px;
+  width: 190px;
+}
+section button {
+  border-radius: 20px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: block;
+  margin: auto;
+  align-items: center;
+}
+
+form > div {
+  width: 200px;
+  margin: 10px;
+}
+
+form .input-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-field input {
+  height: 42px;
+  width: 42px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  border: 1px solid gray;
+  color: gray;
+}
+
+.input-field input:focus {
+  box-shadow: rgba(0, 0, 0, 0.125) 0px 0px 0px 1px,
+    rgb(56, 125, 228) 0px 0px 0px 1px inset;
+  border: 1px solid #4070f4;
+}
+
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button {
+  display: none;
+}
+
+form > button {
+  width: 150px;
+  padding: 15px;
+  background-color: #16963d;
+  color: white;
+  border-radius: 5px;
+  margin: 5px auto;
+  transition: all 0.2s ease;
+}
+
+form > button:hover {
+  background: #28a44d;
+}
+
+form > button:active {
+  background: #09762a;
+}
+.num {
+  border-radius: 19px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(124, 151, 205, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(158, 129, 129, 0.125);
+}

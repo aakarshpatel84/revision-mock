@@ -1,0 +1,134 @@
+* {
+  padding: 00px;
+  margin: 00px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  /*  background-image: url("https://notion-emojis.s3-us-west-2.amazonaws.com/prod/svg-twitter/1f5c3-fe0f.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  backdrop-filter: blur(8px); */
+}
+
+nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #34568b;
+
+  height: 60px;
+}
+nav > img {
+  width: 30px;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+nav > ul > li {
+  list-style: none;
+  text-decoration: none;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section > form {
+  border: 1px solid green;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+form > input:last-child {
+  /* background-color: rgb(15, 248, 15); */
+  background-color: teal;
+  color: white;
+  margin-top: 10px;
+  width: 50%;
+  font-weight: 700;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+form > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+form > div > div {
+  width: 48%;
+}
+form > div > div > select {
+  width: 100%;
+  padding: 10px;
+}
+
+section > form > h1 {
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+}
+textarea {
+  padding: 5px;
+}
+
+li:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+input,
+textarea,
+select {
+  border: none;
+  outline: none;
+  /* border-radius: 15px; */
+  padding: 1em;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: 300ms ease-in-out;
+}
+
+input:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+textarea:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
+select:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696, -13px -13px 100px #ffffff;
+}
