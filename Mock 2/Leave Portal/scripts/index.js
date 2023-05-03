@@ -50,6 +50,7 @@ document.querySelector("form").addEventListener("submit", (e) => {
         // Status Data
         localStorage.setItem("status_data", JSON.stringify(status_data));
         console.log(status_data);
+        alert(`Dear ${formData.name} your request has been submitted`);
 
     } else {
         alert("this id  already taken");
